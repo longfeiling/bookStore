@@ -182,15 +182,15 @@ a.nivo-preNav{left:15px;}
  .next {right:0px; background-position:right top;}
  
  /**********右边栏样式*******/
- .right_side{width:380px;height:500px;float:left;font-size:16px;}
+ .right_side{width:380px;height:500px;float:left;font-size:16px;color: #325d72;}
  .news{width:380px;height:250px;;margin:5px auto;border:1px #E7E7E7 solid;}
  .news ul {margin:8px 18px;}
- .news ul li{margin-top:8px;color:#939393;}
+ .news ul li{margin-top:8px;color:#333;}
  
  .prefecture{width:380px;height:180px;border:1px solid #E7E7E7;margin-top:20px;}
  .prefecture ul {margin:8px 18px;}
  .prefecture ul li{margin-top:8px;color:#ccc;list-style:none;}
- .right_side a{color: #939393;font-family:Georgia, "Times New Roman", Times, serif;font-size:18px;}
+ .right_side a{color: #333;font-family:Georgia, "Times New Roman", Times, serif;font-size:18px;}
  
  /**********注册页面样式*******/
 
