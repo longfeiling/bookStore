@@ -1,7 +1,7 @@
 /****心书网样式表***/
 
 body,div,ul,li,h1,h2,h3,h4,h5,span,em{margin:0;padding:0;border:none;}
-body{font-family:Arial, Helvetica, sans-serif;font-size:14px;}
+body{font-family:Arial, Helvetica, sans-serif;font-size:14px;color: #505050;}
 a{text-decoration:none;color:#999;}
 
 /**********顶部样式********/
@@ -50,7 +50,7 @@ a{text-decoration:none;color:#999;}
 	display:block;
 	font-size:14px;
 	font-weight:900;
-	background:#f06;
+	background:#1B6297;
 	width:1258px;
 	height:40px;
 	margin:2px auto;
@@ -70,20 +70,20 @@ a{text-decoration:none;color:#999;}
 	color:#FFF;
 	line-height:40px;
 }
-.list_items a:hover{background:#C03;}
+.list_items a:hover{background:#2371A8;}
 
 /**********主体样式*******/
-.main{position:relative;width:1258px;height:560px;margin:6px auto;color:#ccc;}
+.main{position:relative;width:1258px;height:560px;margin:6px auto;color:#505050;}
 
 	/**********左边栏样式*******/
 .left_side{
 	width:220px;
 	height:auto;
-	border:3px solid #E4505C;
+	border:3px solid #1B6297;
 	float:left;
 	
 }
-.box{width:220px;margin:0 auto;}
+.box{margin:0 auto;}
 .box ul li{list-style:none;}
 .level1 a{
     display: block;
@@ -247,6 +247,7 @@ a.nivo-preNav{left:15px;}
 /**********图书显示样式*******/
 .detail_side{
 	height:auto;
+	margin-left: 20px;
 }
 .detail_side ul li{
 	float:left;
@@ -259,6 +260,22 @@ a.nivo-preNav{left:15px;}
 	height:200px;
 	margin-top:2px;
 }
+
+
+
+
+/*     新修改   Feeling   2016.8.30*/
+.big-title{
+	font-size: 30px;
+	color:#1B6297;
+	font-weight: bold;
+	float:left;
+	line-height: 150px;
+}
+.box{padding:2px 6px;font-size: 14px;}
+.box .bd .cBlue{font-size: 15px;color: #105599;}
+.box p{font-size: 12px;line-height: 28px;}
+.big-title{font-size: 30px;}
 
 
 
